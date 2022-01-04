@@ -18,7 +18,7 @@ function newQuote() {
   if (quote.text.length > 120) {
     quoteText.classList.add("long-quote");
   } else {
-    quoteText.classLength.add("long-quote");
+    quoteText.classList.add("long-quote");
   }
 
   quoteText.textContent = quote.text;
